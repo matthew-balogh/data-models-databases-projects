@@ -14,3 +14,7 @@ Samples:
 `(u:User {userid: "CUST_10000"})`
 
 `(a:User)`-`[p:SEND_MONEY {tx_id: "TX_2f5b2630", amount: 22765.78, currency: "MXN", initiated_at: "2024-10-01T01:20:14Z"}]`->`(b:User)`
+
+### Implementation
+
+For the full implementation, see [nosql/setup.cypher](./nosql/setup.cypher).

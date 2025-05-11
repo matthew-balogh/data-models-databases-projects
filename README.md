@@ -6,7 +6,7 @@ The objective is to model and construct a graph-based database for data for a pe
 
 ### Modeling
 
-Labels: [`User`, `Suspicious`, `TopSuspicious`]
+Labels: [`User`, `Suspicious`, `TopSuspicious`]\
 Relationship Types: `SEND_MONEY`
 
 Samples:

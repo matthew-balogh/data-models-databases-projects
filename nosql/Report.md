@@ -265,4 +265,4 @@ All the code chunks are located at the relevant place above.
 *A: Use active, descriptive verb phrases in uppercase (e.g., PURCHASED, SENT, FOLLOWS), and set the direction to match real-world logic—typically from the subject (actor) to the object (receiver).*
 
 **Q: What is the difference between [*2] and [*1..2]?**\
-*A: [*2] matches paths of exactly 2 hops, while [*1..2] matches paths of 1 or 2 hops. Use the latter for flexibility in path length.*
+_A: [*2] matches paths of exactly 2 hops, while [*1..2] matches paths of 1 or 2 hops. Use the latter for flexibility in path length._

@@ -23,4 +23,4 @@ SET r.tx_id = row.transaction_id,
 
 // constraints
 CREATE CONSTRAINT uq_userid FOR (u:User) REQUIRE (u.userid) IS UNIQUE;
-CREATE CONSTRAINT uq_tx_id FOR ()-[p:SEND_MONEY]-() REQUIRE (p.tx_id) IS UNIQUE;
+CREATE CONSTRAINT uq_tx_id FOR ()-[r:SEND_MONEY]-() REQUIRE (r.tx_id) IS UNIQUE;

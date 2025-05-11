@@ -22,3 +22,7 @@ For the full implementation, see [nosql/setup.cypher](./nosql/setup.cypher).
 ### Queries
 
 For the full queries, see [nosql/queries.cypher](./nosql/queries.cypher).
+
+### Report
+
+See the report at [nosql/Report.md](./nosql/Report.md) or at [nosql/Report.pdf](./nosql/Report.pdf).

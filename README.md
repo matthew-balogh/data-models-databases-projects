@@ -6,7 +6,7 @@ The objective is to model and construct a graph-based database for data for a pe
 
 ### Modeling
 
-Labels: [`User`, `Suspicious`, `TopSuspicious`]\
+Labels: [`User`]\
 Relationship Types: `SEND_MONEY`
 
 Samples:
@@ -17,12 +17,12 @@ Samples:
 
 ### Implementation
 
-For the full implementation, see [nosql/setup.cypher](./nosql/setup.cypher).
+For the full implementation, see [setup.cypher](./nosql/setup.cypher).
 
 ### Queries
 
-For the full queries, see [nosql/queries.cypher](./nosql/queries.cypher).
+For the full queries, see [queries.cypher](./nosql/queries.cypher).
 
 ### Report
 
-See the report at [nosql/Report.md](./nosql/Report.md) or at [nosql/Report.pdf](./nosql/Report.pdf).
+See the report at [Report.md](./nosql/Report.md) or at [Report.pdf](./nosql/Report.pdf).

@@ -6,15 +6,19 @@ The objective is to model and construct a graph-based database for data for a pe
 
 ### Modeling
 
-Labels: `User`\
+Labels: [`User`, `Suspicious`, `TopSuspicious`]
 Relationship Types: `SEND_MONEY`
 
 Samples:
 
 `(u:User {userid: "CUST_10000"})`
 
-`(a:User)`-`[p:SEND_MONEY {tx_id: "TX_2f5b2630", amount: 22765.78, currency: "MXN", initiated_at: "2024-10-01T01:20:14Z"}]`->`(b:User)`
+`(a:User)`-`[p:SEND_MONEY {tx_id: "TX_2f5b2630", amount: 22765.78, currency: "MXN", initiated_at: "2024-10-01T01:20:14Z", suspicious: true}]`->`(b:User)`
 
 ### Implementation
 
 For the full implementation, see [nosql/setup.cypher](./nosql/setup.cypher).
+
+### Queries
+
+For the full queries, see [nosql/queries.cypher](./nosql/queries.cypher).
